@@ -123,7 +123,7 @@ var QuickHull = (function(){
 			norm = getNormal( face, points );
 
 
-		// Sory all the points by there distance from the plane
+		// Sort all the points by their distance from the plane
 		pointset.sort( function( aItem, bItem ){
 
 			
